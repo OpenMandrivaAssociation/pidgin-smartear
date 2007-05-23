@@ -2,7 +2,7 @@
 %define release %mkrel 1
 %define fversion 2.0.0-1
 
-Summary:	SmartEar plugin for Pidgin
+Summary:	Pidgin plugin to assign a different sound to each buddy
 Name:		pidgin-smartear
 Version:	2.0.0
 Release:	%{release}
