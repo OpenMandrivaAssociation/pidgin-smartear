@@ -14,6 +14,7 @@ Source:		http://somewhere.fscked.org/smartear/smartear-%{fversion}.tar.bz2
 #gw add missing internal header
 Patch: smartear-2.0.0-1-internal.patch
 Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	libtool
 BuildRequires:	pidgin-devel >= %pidgin_version
 Requires:	pidgin >= %pidgin_version
 Provides: gaim-smartear
