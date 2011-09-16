@@ -1,5 +1,5 @@
 %define pidgin_version 2.2.1
-%define release %mkrel 7
+%define release %mkrel 8
 %define fversion 2.0.0-1
 
 Summary:	Pidgin plugin to assign a different sound to each buddy
