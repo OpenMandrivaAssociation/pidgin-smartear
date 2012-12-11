@@ -55,3 +55,46 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %{_libdir}/pidgin/smartear.so
 
+
+
+%changelog
+* Fri Sep 16 2011 Götz Waschk <waschk@mandriva.org> 1:2.0.0-8mdv2012.0
++ Revision: 699960
+- rebuild
+
+* Tue Sep 15 2009 Thierry Vignaud <tv@mandriva.org> 1:2.0.0-7mdv2011.0
++ Revision: 441851
+- rebuild
+
+* Fri Mar 06 2009 Antoine Ginies <aginies@mandriva.com> 1:2.0.0-6mdv2009.1
++ Revision: 350207
+- 2009.1 rebuild
+
+* Fri Aug 01 2008 Thierry Vignaud <tv@mandriva.org> 1:2.0.0-5mdv2009.0
++ Revision: 259038
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 1:2.0.0-4mdv2009.0
++ Revision: 246970
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <blino@mandriva.org> 1:2.0.0-2mdv2008.1
++ Revision: 140731
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Wed Oct 03 2007 Funda Wang <fwang@mandriva.org> 1:2.0.0-2mdv2008.0
++ Revision: 95093
+- rebuild for pidgin 2.2.1
+
+  + Michael Scherer <misc@mandriva.org>
+    - Improve summary
+
+* Wed May 23 2007 Götz Waschk <waschk@mandriva.org> 1:2.0.0-1mdv2008.0
++ Revision: 30014
+- fix buildrequires
+- fix build with pidgin
+- rename
+
