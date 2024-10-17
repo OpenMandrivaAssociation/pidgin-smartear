@@ -9,7 +9,7 @@ Release:	%{release}
 Epoch:		1
 License:	GPL
 Group:		Networking/Instant messaging
-URL:		http://somewhere.fscked.org/smartear/
+URL:		https://somewhere.fscked.org/smartear/
 Source:		http://somewhere.fscked.org/smartear/smartear-%{fversion}.tar.bz2
 #gw add missing internal header
 Patch: smartear-2.0.0-1-internal.patch
